@@ -15,4 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+I’m currently working on [Zenodo](https://zenodo.org/), an open-access digital repository for research data, built to ensure everyone can join Open Science.
+
+Part of the [InvenioRDM](https://inveniosoftware.org/products/rdm/) community.
+
 <img src="https://myreadme.vercel.app/api/embed/alejandromumo?panels=userstatistics,toprepositories,toplanguages" alt="reimaginedreadme" />
