@@ -52,7 +52,7 @@
     <div class="container mx-auto px-8 md:px-24 bg-yellow dark:bg-gradient-to-b dark:from-noir-full dark:to-noir-800">
         <!-- Intro row -->
         <div
-            class="flex row space-x-1 md:space-x-3 text-blue-950 text-2xl md:text-4xl lg:text-7xl dark:text-darkPrimary text-2xl md:text-4xl lg:text-7xl font-bold">
+            class="flex row space-x-1 md:space-x-3 text-blue-950 text-2xl md:text-4xl lg:text-7xl dark:text-darkPrimary font-bold">
             <h1>
                 hello, I am
             </h1>
@@ -117,14 +117,14 @@
             </a>
         </div>
         <!-- Content -->
-        <div class="mb-auto h-svh mt-8">
+        <div class="mb-auto h-vh mt-8">
             <!-- Projects -->
             <article>
                 <h1 class="text-3xl dark:text-darkSecondary">My previous project</h1>
-                <div class="flex mt-2 ml-4 text-l gap-6">
+                <div class="flex flex-col md:flex-row mt-2 ml-4 text-l gap-6">
                     <!-- TODO in small screens, take the full row and center the logo (improve formatting) -->
-                    <a href="https://zenodo.org" target="_blank" class="flex items-center justify-center"><img class="object-contain"
-                            src="https://zenodo.org/static/images/invenio-rdm.svg"></a>
+                    <a href="https://zenodo.org" target="_blank" class="flex mt-4 sm:mt-0 basis-full md:basis-auto items-center justify-center"><img
+                            class="object-contain" src="https://zenodo.org/static/images/invenio-rdm.svg"></a>
                     <div class="dark:text-darkPrimary max-w-prose">
                         I have recently worked at CERN on <a href="https://zenodo.org/" target="_blank"
                             class="dark:text-darkTerceary dark:hover:text-darkTerceary/75">Zenodo</a>, an
@@ -169,12 +169,16 @@
                 <div
                     class="flex justify-between border-t dark:border-darkTerceary mt-10 pt-5 text-lightPrimary dark:text-darkPrimary">
                     <!-- Footer left buttons -->
-                    <div class="column basis-1/2 flex flex-row divide-y-reverse space-x-6 ml-5 items-center">
-                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="#">Who am I?</a>
-                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="projects.html">My
-                            journey so far</a>
-                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="features.html">Cool
-                            stuff I've built</a>
+                    <div class="column flex flex-row divide-y-reverse space-x-6 ml-5 items-center">
+                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="index.html">
+                            Who am I?
+                        </a>
+                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="projects.html">
+                            My journey so far
+                        </a>
+                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="features.html">
+                            Cool stuff I've built
+                        </a>
                     </div>
                 </div>
             </footer>
