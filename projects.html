@@ -1,0 +1,298 @@
+<!--
+    MIT License
+    Copyright (c) 2024 Manuel Alejandro De Oliveira Da Costa
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+-->
+<html>
+
+<head>
+
+    <title>Manu's personal website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-lora flex flex-col w-screen h-screen bg-green dark:bg-black/90">
+    <!-- Main content -->
+    <div class="container mx-auto px-8 md:px-24 bg-yellow dark:bg-gradient-to-b dark:from-noir-full dark:to-noir-800">
+        <!-- Intro row -->
+        <div
+            class="flex-row row space-x-1 md:space-x-3 text-blue-950 text-2xl md:text-4xl lg:text-7xl dark:text-darkPrimary text-2xl md:text-4xl lg:text-7xl font-bold">
+            <h1>
+                Manu(el)
+            </h1>
+            <p class="row text-xs md:text-sm ml-36 ">Go back<a
+                    class="ml-1 text-bold text-lightPrimary dark:text-darkTerceary dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                    href="index.html">home</a></p>
+        </div>
+        <!-- End of intro row -->
+        <!-- Content -->
+        <div class="mb-auto h-vh mt-8">
+            <div class="flex-row space-y-12 divide-y-2 md:divide-y-0 divide-lightPrimary/65 dark:divide-darkPrimary/65">
+                <!-- Zenodo -->
+                <div class="row mx-auto grid grid-flow-col gap-x-4 gap-y-4">
+                    <!-- side date -->
+                    <div
+                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden md:block">
+                        <p class="ml-4">Feb 2022 - Jan 2025</p>
+                    </div>
+                    <!-- End of side date -->
+                    <!-- Header & Content-->
+                    <div class="grid gap-4">
+                        <div class="col-span-full mt-4 md:mt-0">
+                            <div class="flex gap-x-1 dark:text-darkSecondary text-3xl text-bold">
+                                <label>Software Engineer @ <a href="https://home.cern/" target="_blank"
+                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75">CERN</a>,
+                                    Switzerland
+                            </div>
+                        </div>
+                        <!-- End of Header -->
+                        <!-- Content -->
+                        <div class="col-span-full dark:text-darkPrimary text-lightPrimary max-w-prose">
+
+                            <body class="break-words">
+                                I worked for 3 years as a full-stack web developer & DevOps on <a
+                                    class="text-l dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                    href="https://zenodo.org" target="_blank">Zenodo</a>, an <label
+                                    class="text-l dark:text-darkSecondary/90">Open-access</label> digital repository
+                                service for research data, catering
+                                to more than <label
+                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">400,000
+                                    researchers</label> in
+                                153 countries.
+
+                                <br>
+                                <br>
+
+                                During this period, I was also a contributor and maintainer of the
+                                <a class="text-l dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                    href="https://github.com/inveniosoftware" target="_blank">InvenioRDM</a> platform
+                                for institutional repositories,
+                                which is now used by
+                                <label
+                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">more
+                                    than 30
+                                    institutions</label>
+                                worldwide.
+
+                                <br>
+                                <br>
+
+                                I was lucky to work in an interesting multi-disciplinary project, where I highlight:
+
+                                <ul class="list-disc mt-2 ml-6">
+                                    <li>
+                                        the full-scale migration of Zenodo to InvenioRDM, including: data,
+                                        features and APIs ;
+                                    </li>
+                                    <li>
+                                        design and development of new features, e.g. <a
+                                            href="https://zenodo.org/communities/eu/browse" target="_blank"
+                                            class="text-l dark:text-darkTerceary dark:hover:text-darkTerceary/75">Collections</a>,
+                                        a new way of
+                                        organizing multi-disciplinary content
+                                        in Zenodo ;
+                                    </li>
+                                    <li>
+                                        being a maintainer of <label class="text-l dark:text-white">Zenodo</label> and
+                                        <label class="text-l dark:text-DarkSecondary/90"
+                                            target="_blank">InvenioRDM</label>,
+                                        where I had more than 1800 contributions including code, pull-request reviews,
+                                        and managing issues ;
+                                    </li>
+                                </ul>
+                                <br>
+
+                                The migration of Zenodo was <label
+                                    class="text-xl text-bold dark:text-darkSecondary">MASSIVE</label> and it marked a
+                                milestone for
+                                the project, <a class="dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                    href="https://blog.zenodo.org/2023/10/13/2023-10-13-zenodo-rdm/"
+                                    target="_blank">check it out</a>!
+
+                                <br>
+                                <br>
+                                Maybe you want to know more about some features I developed while at CERN? <a
+                                    class="dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                    href="./features.html">Be my guest</a>!
+                            </body>
+                        </div>
+                    </div>
+
+                    <!-- End of Content -->
+                </div>
+                <!-- End of Zenodo -->
+                <!-- GoContact -->
+                <div class="row mx-auto grid grid-flow-col gap-x-4 gap-y-0">
+                    <!-- Header & Content -->
+                    <div class="grid gap-4 col-start-1">
+                        <div class="col-span-full mt-4 md:mt-0">
+                            <div class="flex gap-x-1 dark:text-darkSecondary text-3xl text-bold">
+                                <label>Web developer & DevOps @ <a href="https://www.gocontact.pt/" target="_blank"
+                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75">GoContact</a>,
+                                    Portugal
+                            </div>
+                        </div>
+                        <!-- End of Header -->
+                        <!-- Content -->
+                        <div class="col-span-full dark:text-darkPrimary text-lightPrimary max-w-prose">
+
+                            <body class="break-words">
+                                Worked as a web developer on a cloud-based web application for IPBX Software.
+
+                                <br>
+                                <br>
+
+                                My journey started as a developer, working on front and back-end issues ranging from bug
+                                fixes
+                                to implementing new features.
+                                <br>
+                                After a semester, I transitioned into the <label
+                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">Architecture
+                                    & DevOps</label> team, where I was
+                                responsible for the design and execution of enhancements for the platform, mostly on the
+                                back-end.
+
+                                <br>
+                                <br>
+
+                                To name a few:
+
+
+                                <ul class="list-disc mt-2 ml-6">
+                                    <li>
+                                        the migration of the platform to a microservices architecture ;
+                                    </li>
+                                    <li>
+                                        the migration of legacy APIs to more modern and efficient ones ;
+                                    </li>
+                                    <li>
+                                        the design and implementation of new features ;
+                                    </li>
+                                    <li>
+                                        enhanced authentication workflows, by reworking the authentication API logic
+                                        based on the JWT standard ;
+                                    </li>
+                                    <li>
+                                        introduced best practices to harmonize the codebase, including improved error
+                                        handling and clearer separation of concerns across application layers
+                                    </li>
+                                </ul>
+
+                                <br>
+                                This was a great experience to start my career, it was a hands-on experience where I
+                                learned a lot about leveraging the impact of my contributions on a product that was
+                                delivered to the public.
+                                <br>
+                                I was involved in multiple tasks that were crucial for customers
+                                that integrated our platform, highlighting the importance of having a <label
+                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">clear
+                                    communication with stakeholders.</label>
+
+
+                            </body>
+                        </div>
+                    </div>
+                    <!-- End of Content -->
+                    <!-- side date -->
+                    <div
+                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden md:block">
+                        <p class="ml-4">Sep 2020 - Jan 2022</p>
+                    </div>
+                    <!-- End of side date -->
+                </div>
+                <!-- End of GoContact -->
+                <!-- Universided de Aveiro -->
+                <div class="row mx-auto grid grid-flow-col gap-x-4 gap-y-4">
+                    <!-- side date -->
+                    <div
+                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden md:block">
+                        <p class="ml-4">Jan 2020 - Jul 2020</p>
+                    </div>
+                    <!-- End of side date -->
+                    <!-- Header & Content-->
+                    <div class="grid gap-4">
+                        <div class="col-span-full mt-4 md:mt-0">
+                            <div class="flex gap-x-1 dark:text-darkSecondary text-3xl text-bold">
+                                <label>Web developer @ <a href="https://www.ieeta.pt" target="_blank"
+                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75">IEETA</a>,
+                                    Portugal
+                            </div>
+                        </div>
+                        <!-- End of Header -->
+                        <!-- Content -->
+                        <div class="row-span-2  dark:text-darkPrimary text-lightPrimary max-w-prose">
+
+                            <body class="break-words">
+                                I worked as a web developer & DevOps on the European Health Data and Evidence
+                                Network
+                                (<a class="dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                    href="https://www.ehden.eu/" target="_blank">EHDEN</a>), an EU-funded project
+                                for
+                                sharing health research data among medical institutions, consisting
+                                of <label class="underline dark:decoration-darkSecondary">187 data partners in
+                                    Europe</label> with more than <label
+                                    class="underline dark:decoration-darkSecondary">850
+                                    million records</label>.
+
+                                <br>
+                                <br>
+                                This was my first hands-on experience on a product delivered to the public, where I
+                                jumped
+                                between working on
+                                front-end improvements and back-end features.
+
+                                <br>
+                                I was also involved in the containerization of the platform,
+                                which was a key step for making the platform easier to deploy and maintain.
+                            </body>
+                        </div>
+                        <!-- End of Content -->
+                    </div>
+                </div>
+                <!-- End of Universidade de Aveiro -->
+            </div>
+            <!-- Footer -->
+            <footer>
+                <div
+                    class="flex justify-between border-t dark:border-darkTerceary mt-10 pt-5 text-lightPrimary dark:text-darkPrimary">
+                    <!-- Footer left buttons -->
+                    <div class="column flex flex-row divide-y-reverse space-x-6 ml-5 items-center">
+                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="index.html">Who
+                            am
+                            I?</a>
+                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="projects.html">My
+                            journey so far</a>
+                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="features.html">Cool
+                            stuff
+                            I've
+                            built</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>
