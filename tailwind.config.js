@@ -1,0 +1,80 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: ["./*.{html,js}"],
+    purge: {
+        enabled: true,
+    },
+    theme: {
+        colors: {
+            green: {
+                '50': '#f3f9ec',
+                '100': '#e4f1d6',
+                '200': '#cbe4b2',
+                '300': '#b1d690',
+                '400': '#89be5d',
+                '500': '#6ba33f',
+                '600': '#52812f',
+                '700': '#406328',
+                '800': '#365024',
+                '900': '#2f4522',
+                '950': '#16250e',
+            },
+
+            yellow: '#FEEC37',
+            orange: '#FFA24C',
+            noir: {
+                '50': '#f0f7ff',
+                '100': '#e1effd',
+                '200': '#bbdefc',
+                '300': '#7fc4fa',
+                '400': '#3ca7f4',
+                '500': '#128be5',
+                '600': '#066dc3',
+                '700': '#06569e',
+                '800': '#094a83',
+                '900': '#0d3b66',
+                '950': '#092848',
+                'full': '#0d3b66'
+            },
+            blue: {
+                '50': '#edfcfe',
+                '100': '#d1f6fc',
+                '200': '#a9ecf8',
+                '300': '#6edcf2',
+                '400': '#2cc2e4',
+                '500': '#10a5ca',
+                '600': '#118ab2',
+                '700': '#146a8a',
+                '800': '#1a5770',
+                '900': '#1a485f',
+                '950': '#0b2f41',
+            },
+            maroon: {
+                '50': '#fcf5f4',
+                '100': '#fae9e9',
+                '200': '#f5d6d7',
+                '300': '#ecb5b7',
+                '400': '#e18b91',
+                '500': '#d1626b',
+                '600': '#af3e4d',
+                '700': '#9d3344',
+                '800': '#842d3d',
+                '900': '#72293a',
+                '950': '#3e131b',
+                'full': '#af3e4d'
+            },
+            black: '#000000',
+            transparent: 'transparent',
+            current: 'currentColor',
+            white: '#ffffff',
+            darkPrimary: '#cbe4b2',
+            darkSecondary: '#FFA24C',
+            darkTerceary: '#d1626b',
+            lightPrimary: '#10a5ca',
+            lightSecondary: '#FEEC37',
+        },
+        fontFamily: {
+            lora: "'Lora', sans-serif"
+        },
+    },
+}
