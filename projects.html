@@ -34,17 +34,18 @@
         rel="stylesheet">
 </head>
 
-<body class="font-lora flex flex-col w-screen h-screen bg-green dark:bg-black/90">
+<body class="font-lora flex flex-col w-screen min-h-screen bg-white dark:bg-black/90">
     <!-- Main content -->
-    <div class="container mx-auto px-8 md:px-24 bg-yellow dark:bg-gradient-to-b dark:from-noir-full dark:to-noir-800">
+    <main
+        class="container mx-auto px-8 md:px-16 bg-gradient-to-b from-blue-500 to-blue-600 dark:from-noir-full dark:to-noir-800 min-h-screen">
         <!-- Intro row -->
         <div
-            class="flex-row row space-x-1 md:space-x-3 text-blue-950 text-7xl dark:text-darkPrimary font-bold">
+            class="space-x-1 md:space-x-3 text-3xl sm:text-5xl md:text-7xl text-lightHeader dark:text-darkPrimary font-bold">
             <h1>
-                Manu(el)
+                Manuel
             </h1>
             <p class="row text-base ml-36 ">Go back<a
-                    class="ml-1 text-bold text-lightPrimary dark:text-darkTerceary  dark:hover:text-darkTerceary/75"
+                    class="ml-1 text-bold text-lightTerceary hover:text-lightTerceary/75 dark:text-darkTerceary  dark:hover:text-darkTerceary/75"
                     href="index.html">home</a></p>
         </div>
         <!-- End of intro row -->
@@ -55,22 +56,22 @@
                 <div class="row mx-auto grid grid-flow-col gap-x-4 gap-y-4">
                     <!-- side date -->
                     <div
-                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden lg:block">
+                        class="content-center row-span-full col-span-2 text-lightText/65 border-lightPrimary/65 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden lg:block">
                         <p class="ml-4">Feb 2022 - Jan 2025</p>
                     </div>
                     <!-- End of side date -->
                     <!-- Header & Content-->
                     <div class="grid gap-4">
                         <div class="col-span-full mt-4 lg:mt-0">
-                            <div class="flex gap-x-1 dark:text-darkSecondary text-3xl text-bold">
+                            <div class="flex gap-x-1 text-lightSecondary dark:text-darkSecondary text-3xl text-bold">
                                 <label>Software Engineer @ <a href="https://home.cern/" target="_blank"
-                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75">CERN</a>,
+                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75 text-lightTerceary hover:bg-lightTerceary/75">CERN</a>,
                                     Switzerland
                             </div>
                         </div>
                         <!-- End of Header -->
                         <!-- Content -->
-                        <div class="col-span-full dark:text-darkPrimary text-lightPrimary max-w-prose">
+                        <div class="col-span-full dark:text-darkPrimary text-lightText max-w-prose">
 
                             <body class="break-words">
                                 I worked for 3 years as a full-stack web developer & DevOps on <a
@@ -79,7 +80,7 @@
                                     class="text-l dark:text-darkSecondary/90">Open-access</label> digital repository
                                 service for research data, catering
                                 to more than <label
-                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">400,000
+                                    class="underline decoration-double underline-offset-4  decoration-lightSecondary dark:decoration-darkSecondary">400,000
                                     researchers</label> in
                                 153 countries.
 
@@ -92,7 +93,7 @@
                                 for institutional repositories,
                                 which is now used by
                                 <label
-                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">more
+                                    class="underline decoration-double underline-offset-4 decoration-lightSecondary dark:decoration-darkSecondary">more
                                     than 30
                                     institutions</label>
                                 worldwide.
@@ -128,14 +129,15 @@
                                 The migration of Zenodo was <label
                                     class="text-xl text-bold dark:text-darkSecondary">MASSIVE</label> and it marked a
                                 milestone for
-                                the project, <a class="dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                the project, <a
+                                    class="dark:text-darkTerceary dark:hover:text-darkTerceary/75 text-lightTerceary hover:bg-lightTerceary/75"
                                     href="https://blog.zenodo.org/2023/10/13/2023-10-13-zenodo-rdm/"
                                     target="_blank">check it out</a>!
 
                                 <br>
                                 <br>
                                 Maybe you want to know more about some features I developed while at CERN? <a
-                                    class="dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                    class="dark:text-darkTerceary dark:hover:text-darkTerceary/75 text-lightTerceary hover:bg-lightTerceary/75"
                                     href="./features.html">Be my guest</a>!
                             </body>
                         </div>
@@ -149,18 +151,19 @@
                     <!-- Header & Content -->
                     <div class="grid gap-4 col-start-1">
                         <div class="col-span-full mt-4 lg:mt-0">
-                            <div class="flex gap-x-1 dark:text-darkSecondary text-3xl text-bold">
+                            <div class="flex gap-x-1 text-lightSecondary dark:text-darkSecondary text-3xl text-bold">
                                 <label>Web developer & DevOps @ <a href="https://www.gocontact.pt/" target="_blank"
-                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75">GoContact</a>,
+                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75 text-lightTerceary hover:bg-lightTerceary/75">GoContact</a>,
                                     Portugal
                             </div>
                         </div>
                         <!-- End of Header -->
                         <!-- Content -->
-                        <div class="col-span-full dark:text-darkPrimary text-lightPrimary max-w-prose">
+                        <div class="col-span-full dark:text-darkPrimary text-lightText max-w-prose">
 
                             <body class="break-words">
-                                My first professional experience was as a web developer on a cloud-based web application for IPBX Software.
+                                My first professional experience was as a web developer on a cloud-based web application
+                                for IPBX Software.
 
                                 <br>
                                 <br>
@@ -170,7 +173,7 @@
                                 to implementing new features.
                                 <br>
                                 After a semester, I transitioned into the <label
-                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">Architecture
+                                    class="underline decoration-double underline-offset-4 decoration-lightSecondary dark:decoration-darkSecondary">Architecture
                                     & DevOps</label> team, where I was
                                 responsible for the design and execution of enhancements for the platform, mostly on the
                                 back-end.
@@ -208,7 +211,7 @@
                                 <br>
                                 I was involved in multiple tasks that were crucial for customers
                                 that integrated our platform, highlighting the importance of having a <label
-                                    class="underline decoration-double underline-offset-4 dark:decoration-darkSecondary">clear
+                                    class="underline decoration-double underline-offset-4 decoration-lightSecondary dark:decoration-darkSecondary">clear
                                     communication with stakeholders.</label>
 
 
@@ -218,7 +221,7 @@
                     <!-- End of Content -->
                     <!-- side date -->
                     <div
-                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden lg:block">
+                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden lg:block text-lightText/65 border-lightPrimary/65">
                         <p class="ml-4">Sep 2020 - Jan 2022</p>
                     </div>
                     <!-- End of side date -->
@@ -228,33 +231,34 @@
                 <div class="row mx-auto grid grid-flow-col gap-x-4 gap-y-4">
                     <!-- side date -->
                     <div
-                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden lg:block">
+                        class="content-center row-span-full col-span-2 dark:text-darkPrimary/65 border-l dark:border-darkPrimary/65 hidden lg:block text-lightText/65 border-lightPrimary/65">
                         <p class="ml-4">Jan 2020 - Jul 2020</p>
                     </div>
                     <!-- End of side date -->
                     <!-- Header & Content-->
                     <div class="grid gap-4">
                         <div class="col-span-full mt-4 lg:mt-0">
-                            <div class="flex gap-x-1 dark:text-darkSecondary text-3xl text-bold">
+                            <div class="flex gap-x-1 text-lightSecondary dark:text-darkSecondary text-3xl text-bold">
                                 <label>Web developer @ <a href="https://www.ieeta.pt" target="_blank"
-                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75">IEETA</a>,
+                                        class="dark:text-darkTerceary dark:hover:text-darkTerceary/75 text-lightTerceary hover:bg-lightTerceary/75">IEETA</a>,
                                     Portugal
                             </div>
                         </div>
                         <!-- End of Header -->
                         <!-- Content -->
-                        <div class="row-span-2  dark:text-darkPrimary text-lightPrimary max-w-prose">
+                        <div class="row-span-2  dark:text-darkPrimary text-lightText max-w-prose">
 
                             <body class="break-words">
                                 I worked as a web developer & DevOps on the European Health Data and Evidence
                                 Network
-                                (<a class="dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+                                (<a class="dark:text-darkTerceary dark:hover:text-darkTerceary/75 text-lightTerceary hover:bg-lightTerceary/75"
                                     href="https://www.ehden.eu/" target="_blank">EHDEN</a>), an EU-funded project
                                 for
                                 sharing health research data among medical institutions, consisting
-                                of <label class="underline dark:decoration-darkSecondary">187 data partners in
+                                of <label class="underline decoration-double decoration-lightSecondary dark:decoration-darkSecondary">187
+                                    data partners in
                                     Europe</label> with more than <label
-                                    class="underline dark:decoration-darkSecondary">850
+                                    class="underline decoration-double decoration-lightSecondary dark:decoration-darkSecondary">850
                                     million records</label>.
 
                                 <br>
@@ -274,24 +278,27 @@
                 </div>
                 <!-- End of Universidade de Aveiro -->
             </div>
-            <!-- Footer -->
-            <footer>
-                <div
-                    class="flex justify-between border-t dark:border-darkTerceary mt-10 pt-5 text-lightPrimary dark:text-darkPrimary">
-                    <!-- Footer left buttons -->
-                    <div class="column flex flex-row divide-y-reverse space-x-6 ml-5 items-center">
-                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="index.html">Who
-                            am
-                            I?</a>
-                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="projects.html">My projects</a>
-                        <a class="transition hover:text-blue-300 dark:hover:text-darkTerceary" href="features.html">Cool
-                            stuff
-                            I've
-                            built</a>
-                    </div>
-                </div>
-            </footer>
         </div>
+        <!-- Footer -->
+        <footer>
+            <div
+                class="flex justify-between border-t border-lightTerceary dark:border-darkTerceary mt-10 pt-5 text-lightText dark:text-darkPrimary">
+                <!-- Footer left buttons -->
+                <div class="column flex flex-row divide-y-reverse space-x-6 ml-5 items-center">
+                    <a class="transition hover:text-lightTerceary dark:hover:text-darkTerceary" href="index.html">
+                        Who am I?
+                    </a>
+                    <a class="transition hover:text-lightTerceary dark:hover:text-darkTerceary" href="projects.html">
+                        My projects
+                    </a>
+                    <a class="transition hover:text-lightTerceary dark:hover:text-darkTerceary" href="features.html">
+                        Cool stuff I've built
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-- End of footer -->
+    </main>
 </body>
 
 </html>
