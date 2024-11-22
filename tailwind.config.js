@@ -18,6 +18,7 @@ module.exports = {
                 '800': '#365024',
                 '900': '#2f4522',
                 '950': '#16250e',
+                'nodejs': '#499441'
             },
             yellow: {
                 100: "#fffbd7",
@@ -29,6 +30,8 @@ module.exports = {
                 700: "#988e21",
                 800: "#665e16",
                 900: "#332f0b",
+                'elastic': '#fed10a',
+                'js': '#f7e018'
             },
             orange: {
                 100: "#ffecdb",
@@ -67,6 +70,11 @@ module.exports = {
                 '800': '#1a5770',
                 '900': '#1a485f',
                 '950': '#0b2f41',
+                'python': '#3776ab',
+                'react': '#75cae5',
+                'psql': '#8daac1',
+                'elastic': '#24bbb1',
+                'docker': '#1072d8'
             },
             maroon: {
                 '50': '#fcf5f4',
@@ -92,7 +100,32 @@ module.exports = {
                 '800': "#12131c",
                 '900': "#090a0e",
             },
+            pink: {
+                100: "#fcdcea",
+                200: "#f9b9d6",
+                300: "#f596c1",
+                400: "#f273ad",
+                500: "#ef5098",
+                600: "#bf407a",
+                700: "#8f305b",
+                800: "#60203d",
+                900: "#30101e",
+                'elastic': '#ef5098'
+            },
+            red: {
+                100: "#edd3d1",
+                200: "#dca8a3",
+                300: "#ca7c74",
+                400: "#b95146",
+                500: "#a72518",
+                600: "#861e13",
+                700: "#64160e",
+                800: "#430f0a",
+                900: "#210705",
+                'redis': "#a72518"
+            },
             black: '#000000',
+            blackOpaque: '#191919',
             transparent: 'transparent',
             current: 'currentColor',
             white: '#ffffff',
@@ -100,8 +133,8 @@ module.exports = {
             darkPrimary: '#cbe4b2',
             darkSecondary: '#FFA24C',
             darkTerceary: '#d1626b',
-            darkText: 'cbe4b2',
-            darkHeader: '',
+            darkText: '#cbe4b2',
+            darkHeader: '#cbe4b2',
             // Light colors
             lightPrimary: '#2d3047',
             lightSecondary: '#2d3047',
