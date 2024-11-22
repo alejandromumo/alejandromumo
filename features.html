@@ -21,60 +21,78 @@
     THE SOFTWARE.
 -->
 <html>
-
-<head>
-
+  <head>
     <title>Manu's personal website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./build.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./build.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body class="font-lora flex flex-col w-screen min-h-screen bg-white dark:bg-black/90">
+  <body
+    class="flex min-h-screen w-screen flex-col bg-white font-lora dark:bg-black/90"
+  >
     <!-- Main content -->
     <main
-        class="container mx-auto px-8 md:px-16 bg-gradient-to-b from-blue-500 to-blue-600 dark:from-noir-full dark:to-noir-800 min-h-screen">
-        <!-- Intro row -->
+      class="container mx-auto min-h-screen bg-gradient-to-b from-blue-500 to-blue-600 px-8 md:px-16 dark:from-noir-full dark:to-noir-800"
+    >
+      <!-- Intro row -->
+      <div
+        class="space-x-1 text-3xl font-bold text-lightHeader sm:text-5xl md:space-x-3 md:text-7xl dark:text-darkPrimary"
+      >
+        <h1>Manuel</h1>
+        <p class="row ml-36 text-base">
+          Go back<a
+            class="text-bold ml-1 text-lightTerceary hover:text-lightTerceary/75 dark:text-darkTerceary dark:hover:text-darkTerceary/75"
+            href="index.html"
+            >home</a
+          >
+        </p>
+      </div>
+      <!-- End of intro row -->
+      <!-- Content -->
+      <div class="mb-auto mt-8">
+        <div class="flex flex-col justify-center">
+          <div class="text-2xl text-lightText dark:text-darkPrimary">
+            Coming soon
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer>
         <div
-            class="space-x-1 md:space-x-3 text-3xl sm:text-5xl md:text-7xl text-lightHeader dark:text-darkPrimary font-bold">
-            <h1>
-                Manuel
-            </h1>
-            <p class="row text-base ml-36 ">Go back<a
-                    class="ml-1 text-bold text-lightTerceary hover:text-lightTerceary/75 dark:text-darkTerceary  dark:hover:text-darkTerceary/75"
-                    href="index.html">home</a></p>
+          class="mt-10 flex justify-between border-t border-lightTerceary pt-5 text-lightText dark:border-darkTerceary dark:text-darkPrimary"
+        >
+          <!-- Footer left buttons -->
+          <div
+            class="column ml-5 flex flex-row items-center space-x-6 divide-y-reverse"
+          >
+            <a
+              class="transition hover:text-lightTerceary dark:hover:text-darkTerceary"
+              href="index.html"
+            >
+              Who am I?
+            </a>
+            <a
+              class="transition hover:text-lightTerceary dark:hover:text-darkTerceary"
+              href="projects.html"
+            >
+              My projects
+            </a>
+            <a
+              class="transition hover:text-lightTerceary dark:hover:text-darkTerceary"
+              href="features.html"
+            >
+              Cool stuff I've built
+            </a>
+          </div>
         </div>
-        <!-- End of intro row -->
-        <!-- Content -->
-        <div class="mb-auto mt-8">
-            <div class="flex flex-col justify-center">
-                <div class="text-2xl dark:text-darkPrimary text-lightText">Coming soon</div>
-            </div>
-        </div>
-        <!-- Footer -->
-        <footer>
-            <div
-                class="flex justify-between border-t border-lightTerceary dark:border-darkTerceary mt-10 pt-5 text-lightText dark:text-darkPrimary">
-                <!-- Footer left buttons -->
-                <div class="column flex flex-row divide-y-reverse space-x-6 ml-5 items-center">
-                    <a class="transition hover:text-lightTerceary dark:hover:text-darkTerceary" href="index.html">
-                        Who am I?
-                    </a>
-                    <a class="transition hover:text-lightTerceary dark:hover:text-darkTerceary" href="projects.html">
-                        My projects
-                    </a>
-                    <a class="transition hover:text-lightTerceary dark:hover:text-darkTerceary" href="features.html">
-                        Cool stuff I've built
-                    </a>
-                </div>
-            </div>
-        </footer>
-        <!-- End of footer -->
+      </footer>
+      <!-- End of footer -->
     </main>
-</body>
-
+  </body>
 </html>
