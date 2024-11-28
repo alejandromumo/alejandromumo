@@ -132,7 +132,7 @@ module.exports = {
             // Dark colors
             darkPrimary: '#cbe4b2',
             darkSecondary: '#FFA24C',
-            darkTerceary: '#d1626b',
+            darkTerceary: '#FF7B9C',
             darkText: '#cbe4b2',
             darkHeader: '#cbe4b2',
             // Light colors
