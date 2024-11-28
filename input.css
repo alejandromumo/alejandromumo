@@ -21,27 +21,27 @@
 }
 
 /* CSS: Tailwind utility extensions for cycling through values */
-.animate-text-cycle label:nth-child(1) {
+.animate-text-cycle span:nth-child(1) {
     animation: fade 15s infinite;
     animation-delay: 0s;
 }
 
-.animate-text-cycle label:nth-child(2) {
+.animate-text-cycle span:nth-child(2) {
     animation: fade 15s infinite;
     animation-delay: 3s;
 }
 
-.animate-text-cycle label:nth-child(3) {
+.animate-text-cycle span:nth-child(3) {
     animation: fade 15s infinite;
     animation-delay: 6s;
 }
 
-.animate-text-cycle label:nth-child(4) {
+.animate-text-cycle span:nth-child(4) {
     animation: fade 15s infinite;
     animation-delay: 9s;
 }
 
-.animate-text-cycle label:nth-child(5) {
+.animate-text-cycle span:nth-child(5) {
     animation: fade 15s infinite;
     animation-delay: 12s;
 }

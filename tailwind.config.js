@@ -18,7 +18,7 @@ module.exports = {
                 '800': '#365024',
                 '900': '#2f4522',
                 '950': '#16250e',
-                'nodejs': '#499441'
+                'nodejs': '#30632C'
             },
             yellow: {
                 100: "#fffbd7",
@@ -72,7 +72,7 @@ module.exports = {
                 '950': '#0b2f41',
                 'python': '#3776ab',
                 'react': '#75cae5',
-                'psql': '#8daac1',
+                'psql': '#3B576D',
                 'elastic': '#24bbb1',
                 'docker': '#1072d8'
             },
@@ -110,7 +110,7 @@ module.exports = {
                 700: "#8f305b",
                 800: "#60203d",
                 900: "#30101e",
-                'elastic': '#ef5098'
+                'elastic': '#A30F52'
             },
             red: {
                 100: "#edd3d1",
