@@ -15,15 +15,21 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🔭 I’m currently working on [Zenodo](https://zenodo.org/), an open-access digital repository for research data, built to ensure everyone can join Open Science.
+I am a computer engineer with a background in Computer Networks, highly interested in programming and infrastructure.
+
+Recently I have been doing mostly backend development with Python, PostgreSQL and ElasticSearch.  
+
+I am actively working on my front-end skills with React and TailwindCSS - the latter I used to build [my website](https://alejandromumo.github.io/alejandromumo/)!
+
+🔭 I’m currently working on [Zenodo](https://zenodo.org/), the world's largest open-access repository for research data, built to ensure everyone can join Open Science.
 
 👯 Part of the [InvenioRDM](https://inveniosoftware.org/products/rdm/) community and core developer of the [InvenioRDM framework](https://inveniordm.docs.cern.ch/).
 
-# 😎 Things I built so far
+## 😎 Things I built so far
 
-At Zenodo, I worked on multiple features such as:
+At Zenodo and InvenioRDM, I worked on multiple features such as:
 
-## European Open Repository Collections
+### European Open Repository Collections
 
 Collections organize the contents of a Zenodo community in logical sets of records. For the European Open Repository, these can be a set of records that share the same funding or are from the same discipline (e.g. `Natural Sciences`).
 
@@ -43,7 +49,7 @@ Each collection can then be accessed to inspect its contents:
 These records can be further filtered by using the left-hand facets, providing multiple layers of organization and discoverability of the community contents.
 </details>
 
-### 🤓 How it works
+#### 🤓 How it works
 
 The underlying concept of collections is that they are tree-like structures that store an OpenSearch query (to fetch the records). Therefore, we store each collection in the DB as a tree-like structure using the materialized path pattern. 
 
@@ -58,7 +64,9 @@ The underlying concept of collections is that they are tree-like structures that
 If you are curious (and courageous), you can read the [Request for Comments](https://github.com/inveniosoftware/rfcs/blob/master/rfcs/rdm-0079-collections.md) document where all the technical nuts and bolts are discussed.
 </details>
 
-## Zenodo and Software Heritage integration
+---
+
+### Zenodo and Software Heritage integration
 
 Zenodo archives openly disseminated software source code in Software Heritage, in a combined effort to "create an interconnected and interoperable academic ecosystem, (...) contributing to the global software commons" ([blog post](https://blog.zenodo.org/2024/10/21/2024-10-21-swh/))
 
