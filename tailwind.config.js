@@ -31,7 +31,7 @@ module.exports = {
                 800: "#665e16",
                 900: "#332f0b",
                 'elastic': '#fed10a',
-                'js': '#f7e018'
+                'js': '#c79c07'
             },
             orange: {
                 100: "#ffecdb",
